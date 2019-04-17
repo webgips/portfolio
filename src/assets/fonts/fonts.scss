@@ -1,0 +1,15 @@
+$font-folder: './assets/fonts/proximanova/' !default;
+@font-face{font-family:'proxima_nova_rgbold';src:url('#{$font-folder}proximanova-bold-webfont.woff') format('woff');font-weight:normal;font-style:normal}
+@font-face{font-family:'proxima_novasemibold';src:url('#{$font-folder}proximanova-semibold-webfont.woff') format('woff');font-weight:normal;font-style:normal;}
+@font-face{font-family:'proxima_novalight';src:url('#{$font-folder}proximanova-light-webfont.woff') format('woff');font-weight:normal;font-style:normal}
+@font-face{font-family:'proxima_nova_rgregular';src:url('#{$font-folder}proximanova-regular-webfont.woff') format('woff');font-weight:normal;font-style:normal}
+@font-face{font-family:'proxima_novaregular_italic';src:url('#{$font-folder}proximanova-regularitalic-webfont.woff') format('woff');font-weight:normal;font-style:normal}
+@font-face{font-family:'proxima_nova_thinthin'; src:url('#{$font-folder}proximanovat-thin-webfont.woff') format('woff'); font-weight:normal; font-style:normal;}
+
+// Proxima Nova
+$proxima-nova: "proxima_nova_rgregular";
+$proxima-nova-bold: "proxima_nova_rgbold";
+$proxima-nova-semibold: "proxima_novasemibold";
+$proxima-nova-light: "proxima_novalight";
+$proxima-nova-italic: "proxima_novaregular_italic";
+$proxima-nova-thin: "proxima_nova_thinthin";
