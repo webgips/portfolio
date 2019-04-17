@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.scss';
 
 import Sidebar from './components/Sidebar/Sidebar'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import { BrowserRouter as Router, Route } from "react-router-dom"
 
 
 const routes = [
@@ -29,20 +29,20 @@ const routes = [
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Router>
           <Sidebar />
-          <div style={{ flex: 1, padding: "10px" }}>
-            {routes.map((route, index) => (
-              // Render more <Route>s with the same paths as
-              // above, but different components this time.
-              <Route
-                key={index}
-                path={route.path}
-                exact={route.exact}
-                component={route.main}
-              />
-            ))}
+          <div className="content__wrap">
+            <div className="content">
+              {routes.map((route, index) => (
+                <Route
+                  key={index}
+                  path={route.path}
+                  exact={route.exact}
+                  component={route.main}
+                />
+              ))}
+            </div>
           </div>
         </Router>
       </div>
