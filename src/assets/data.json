@@ -1,0 +1,68 @@
+{
+  "works": [
+    {
+      "name": "Advokat",
+      "imgUrl": "/images/works/advokat.png",
+      "link": "http://advokat.by/"
+    },
+    {
+      "name": "WeeBets corpsite",
+      "imgUrl": "/images/works/weebets.png",
+      "link": "https://weebets-d51bd.firebaseapp.com/"
+    },
+    {
+      "name": "WeeBets dashboard",
+      "imgUrl": "/images/works/weebets-dashboard.png",
+      "link": "https://dashboard-c2cd9.firebaseapp.com/"
+    },
+    {
+      "name": "Karma.red",
+      "imgUrl": "/images/works/karma.png",
+      "link": "https://tokensale.karma.red/"
+    },
+
+    {
+      "name": "Getphuket.ru",
+      "imgUrl": "/images/works/getphuket.ru.png",
+      "link": "https://getphuket.ru/"
+    },
+    {
+      "name": "Laboratoria Coffee",
+      "imgUrl": "/images/works/laboratoriacoffee.by.jpg",
+      "link": "https://laboratoriacoffee.by/"
+    },
+    {
+      "name": "IcePoint.by",
+      "imgUrl": "/images/works/icepoint.by.png",
+      "link": "http://icepoint.by"
+    },
+
+    {
+      "name": "Talkie",
+      "imgUrl": "/images/works/talki.admore.by.png",
+      "link": ""
+    },
+    {
+      "name": "Gyroskutery.by",
+      "imgUrl": "/images/works/gyroskutery.by.png",
+      "link": "http://gyroskutery.by/"
+    },
+
+    {
+      "name": "Vershina Ufox",
+      "imgUrl": "/images/works/vershina-ufox.png",
+      "link": "http://vershina.ufox.by/"
+    },
+
+    {
+      "name": "Casino Minsk Royal",
+      "imgUrl": "/images/works/casino-minsk-royal.ru.png",
+      "link": "http://casino-minsk-royal.ru/"
+    },
+    {
+      "name": "Burgers Delivery",
+      "imgUrl": "/images/works/burger.png",
+      "link": "http://webgips.tmweb.ru"
+    }
+  ]
+}
