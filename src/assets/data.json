@@ -1,30 +1,53 @@
 {
   "works": [
     {
-      "name": "Advokat",
+      "name": "Erarta museum",
+      "imgUrl": "/images/works/#.png",
+      "link": "http://advokat.by/",
+      "about": "Site for Minsk collegium of Advocates"
+    },
+    
+    {
+      "name": "NLgroup",
+      "imgUrl": "/images/works/nl.png",
+      "link": "http://nlgroup.demo.code-pilots.ru/",
+      "about": "“NLGroup” is a Russian manufacturer of clothing for women and children, underwear."
+    },
+    {
+      "name": "DAppFight",
+      "imgUrl": "/images/works/dapp.png",
+      "link": "https://dappfight.com/",
+      "about": "DAppFight is a rating data platform which gives online all necessary DApp's information and statistics"
+    },
+    {
+      "name": "Advokat.by",
       "imgUrl": "/images/works/advokat.png",
-      "link": "http://advokat.by/"
+      "link": "http://advokat.by/",
+      "about": "Site for Minsk collegium of Advocates"
     },
     {
       "name": "WeeBets corpsite",
       "imgUrl": "/images/works/weebets.png",
-      "link": "https://weebets-d51bd.firebaseapp.com/"
+      "link": "https://weebets-d51bd.firebaseapp.com/",
+      "about": "Site for WeeBets slot machines сompany"
     },
     {
       "name": "WeeBets dashboard",
       "imgUrl": "/images/works/weebets-dashboard.png",
-      "link": "https://dashboard-c2cd9.firebaseapp.com/"
+      "link": "https://dashboard-c2cd9.firebaseapp.com/",
+      "about": "Info dashboard for WeeBets slots"
     },
     {
       "name": "Karma.red",
       "imgUrl": "/images/works/karma.png",
-      "link": "https://tokensale.karma.red/"
+      "link": "https://tokensale.karma.red/",
+      "about": "Token sale page for Karma global p2p loans platform"
     },
-
     {
       "name": "Getphuket.ru",
       "imgUrl": "/images/works/getphuket.ru.png",
-      "link": "https://getphuket.ru/"
+      "link": "http://getphuket.ru/",
+      "about": "Token sale page for Karma global p2p loans platform"
     },
     {
       "name": "Laboratoria Coffee",

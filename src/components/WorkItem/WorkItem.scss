@@ -1,4 +1,20 @@
 @import "./../../assets/styles/mixins";
 .work-item{
-  
+  margin-top: 40px;
+  &__link{
+    color: #9ca7ff;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+    font-family: "proxima_nova_bold";
+  }
+  &__text{
+    font-family: "proxima_novasemibold";
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  &__img{
+    width: 100%;
+    display: block;
+  }
 }
