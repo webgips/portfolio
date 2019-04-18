@@ -25,7 +25,7 @@ class Socials extends Component {
 		};
   }
   render() {
-		const socialItem = this.state.socialsArr.map((social, index) => 
+		const socialItems = this.state.socialsArr.map((social, index) => 
 			<li className="socials__item" key={index}>
 				<a
 					className="socials__link"
@@ -42,7 +42,7 @@ class Socials extends Component {
 
     return (
       <ul className="socials__list">
-				{socialItem}
+				{socialItems}
       </ul>
     );
   }
