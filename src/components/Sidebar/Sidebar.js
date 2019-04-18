@@ -16,7 +16,7 @@ class Sidebar extends Component {
           </div>
           <nav className="nav">
             <NavLink className="nav__link" activeClassName="nav__link-active" exact to="/">About</NavLink>
-            <NavLink className="nav__link" activeClassName="nav__link-active" exact to="/works">Works</NavLink>
+            <NavLink className="nav__link" activeClassName="nav__link-active"  to="/works">Works</NavLink>
             <NavLink className="nav__link" activeClassName="nav__link-active" exact to="/contacts">Contacts</NavLink>
           </nav>
           <Socials />

@@ -16,7 +16,7 @@ const routesArr = [
     name: 'works',
     path: "/works",
     exact: true,
-    main: () => <WorkList />
+    main: WorkList
   },
   /* {
     name: 'WorkItem',
@@ -47,10 +47,10 @@ export const Routes = () => {
             component={route.main}
           />
         )}
-        {/* <Route
-          path='works/:id'
+        <Route
+          path='/works/:id'
           component={WorkItem}
-        /> */}
+        />
         </Switch>
       </div>
     </div>

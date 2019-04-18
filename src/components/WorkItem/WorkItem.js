@@ -1,5 +1,6 @@
 import React from 'react';
 
+import {works} from '../../assets/data.json'
 import "./WorkItem.scss";
 
 function WorkItem({match}){
