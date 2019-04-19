@@ -2,20 +2,19 @@
   "stack": ["HTML", "CSS", "Jquery", "Vue.js", "Chart.js", "D3.js", "WordPress"],
   "works": [
     {
-      "name": "Erarta museum",
-      "imgUrl": "/images/works/www.erarta.com.png",
-      "link": "http://erarta.com/",
-      "about": "Site for Minsk collegium of Advocates",
-      "stack": ["HTML", "CSS", "Jquery"]
-    },
-    {
       "name": "NLgroup",
       "imgUrl": "/images/works/nlgroup.png",
       "link": "http://nlgroup.demo.code-pilots.ru/",
       "about": "“NLGroup” is a Russian manufacturer of clothing for women and children, underwear.",
       "stack": ["HTML", "CSS", "Jquery"]
     },
-
+    {
+      "name": "Erarta museum",
+      "imgUrl": "/images/works/www.erarta.com.png",
+      "link": "http://erarta.com/",
+      "about": "Site for Minsk collegium of Advocates",
+      "stack": ["HTML", "CSS", "Jquery"]
+    },
     {
       "name": "Mogoboinya",
       "imgUrl": "/images/works/mozgo.com.png",

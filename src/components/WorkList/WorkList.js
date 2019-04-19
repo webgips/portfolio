@@ -13,8 +13,7 @@ function getParams(search) {
 
 const updateSearch = (props, component) => {
   const params = getParams(props.location.search);
-    
-  console.log(props)
+
   if (params.sort.length > 0) {
     const filteredWorks = component.state.worksList.filter((work) => {
       return work.stack.some((stack) => stack === params.sort)
