@@ -7,6 +7,12 @@
         margin-top: 20px;
       }
     }
+    &__filter{
+        margin-bottom: 20px;
+        .tech-link{
+            margin-right: 10px;
+        }
+    }
     &__list{
       list-style: none;
       display: flex;

@@ -71,3 +71,24 @@ body{
     }
   }
 }
+.tech-link{
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-family: "proxima_novasemibold";
+  color: #fff;
+  background-color: #0f5257;
+  color: #17b7b9;
+  text-decoration: none;
+}
+.tech-reset{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: rgb(143, 53, 53);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
