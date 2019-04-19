@@ -1,91 +1,124 @@
 {
+  "stack": ["HTML", "CSS", "Jquery", "Vue.js", "Chart.js", "D3.js", "WordPress"],
   "works": [
     {
       "name": "Erarta museum",
-      "imgUrl": "/images/works/#.png",
-      "link": "http://advokat.by/",
-      "about": "Site for Minsk collegium of Advocates"
+      "imgUrl": "/images/works/www.erarta.com.png",
+      "link": "http://erarta.com/",
+      "about": "Site for Minsk collegium of Advocates",
+      "stack": ["HTML", "CSS", "Jquery"]
+    },
+    {
+      "name": "NLgroup",
+      "imgUrl": "/images/works/nlgroup.png",
+      "link": "http://nlgroup.demo.code-pilots.ru/",
+      "about": "“NLGroup” is a Russian manufacturer of clothing for women and children, underwear.",
+      "stack": ["HTML", "CSS", "Jquery"]
+    },
+
+    {
+      "name": "Mogoboinya",
+      "imgUrl": "/images/works/mozgo.com.png",
+      "link": "",
+      "about": "Mozgoboinya game registration platform.",
+      "stack": ["HTML", "CSS", "Vue.js"]
+    },
+
+    {
+      "name": "DAppFight",
+      "imgUrl": "/images/works/dappfight.com.png",
+      "link": "https://dappfight.com/",
+      "about": "DAppFight is a rating data platform which gives online all necessary DApp's information and statistics",
+      "stack": ["HTML", "CSS", "Jquery", "Chart.js"]
     },
     
     {
-      "name": "NLgroup",
-      "imgUrl": "/images/works/nl.png",
-      "link": "http://nlgroup.demo.code-pilots.ru/",
-      "about": "“NLGroup” is a Russian manufacturer of clothing for women and children, underwear."
+      "name": "oddjob.ru",
+      "imgUrl": "/images/works/oddjob.ru.jpeg",
+      "link": "https://oddjob.ru/",
+      "about": "Site for Personal Solutions company. The company 'Personal Solution' helps customers quickly find freelance staff",
+      "stack": ["HTML", "CSS", "Jquery"]
     },
-    {
-      "name": "DAppFight",
-      "imgUrl": "/images/works/dapp.png",
-      "link": "https://dappfight.com/",
-      "about": "DAppFight is a rating data platform which gives online all necessary DApp's information and statistics"
-    },
+
     {
       "name": "Advokat.by",
       "imgUrl": "/images/works/advokat.png",
       "link": "http://advokat.by/",
-      "about": "Site for Minsk collegium of Advocates"
+      "about": "Site for Minsk collegium of Advocates",
+      "stack": ["HTML", "CSS", "Jquery"]
     },
     {
       "name": "WeeBets corpsite",
       "imgUrl": "/images/works/weebets.png",
       "link": "https://weebets-d51bd.firebaseapp.com/",
-      "about": "Site for WeeBets slot machines сompany"
+      "about": "Site for WeeBets slot machines сompany",
+      "stack": ["HTML", "CSS", "Jquery"]
     },
     {
       "name": "WeeBets dashboard",
       "imgUrl": "/images/works/weebets-dashboard.png",
       "link": "https://dashboard-c2cd9.firebaseapp.com/",
-      "about": "Info dashboard for WeeBets slots"
+      "about": "Info dashboard for WeeBets slots",
+      "stack": ["HTML", "CSS", "Jquery", "D3.js"]
     },
     {
       "name": "Karma.red",
       "imgUrl": "/images/works/karma.png",
       "link": "https://tokensale.karma.red/",
-      "about": "Token sale page for Karma global p2p loans platform"
+      "about": "Token sale page for Karma global p2p loans platform",
+      "stack": ["HTML", "CSS", "Jquery"]
     },
     {
       "name": "Getphuket.ru",
       "imgUrl": "/images/works/getphuket.ru.png",
       "link": "http://getphuket.ru/",
-      "about": "Token sale page for Karma global p2p loans platform"
+      "about": "Token sale page for Karma global p2p loans platform",
+      "stack": ["HTML", "CSS", "Jquery"]
     },
     {
       "name": "Laboratoria Coffee",
       "imgUrl": "/images/works/laboratoriacoffee.by.jpg",
-      "link": "https://laboratoriacoffee.by/"
+      "link": "https://laboratoriacoffee.by/",
+      "stack": ["HTML", "CSS", "Jquery"]
     },
     {
       "name": "IcePoint.by",
       "imgUrl": "/images/works/icepoint.by.png",
-      "link": "http://icepoint.by"
+      "link": "http://icepoint.by",
+      "stack": ["HTML", "CSS", "Jquery"]
     },
 
     {
       "name": "Talkie",
       "imgUrl": "/images/works/talki.admore.by.png",
-      "link": ""
+      "link": "",
+      "stack": ["HTML", "CSS", "Jquery"]
     },
     {
       "name": "Gyroskutery.by",
       "imgUrl": "/images/works/gyroskutery.by.png",
-      "link": "http://gyroskutery.by/"
+      "link": "http://gyroskutery.by/",
+      "stack": ["HTML", "CSS", "Jquery"]
     },
 
     {
       "name": "Vershina Ufox",
       "imgUrl": "/images/works/vershina-ufox.png",
-      "link": "http://vershina.ufox.by/"
+      "link": "http://vershina.ufox.by/",
+      "stack": ["HTML", "CSS", "Jquery"]
     },
 
     {
       "name": "Casino Minsk Royal",
       "imgUrl": "/images/works/casino-minsk-royal.ru.png",
-      "link": "http://casino-minsk-royal.ru/"
+      "link": "http://casino-minsk-royal.ru/",
+      "stack": ["HTML", "CSS", "Jquery", "WordPress"]
     },
     {
       "name": "Burgers Delivery",
       "imgUrl": "/images/works/burger.png",
-      "link": "http://webgips.tmweb.ru"
+      "link": "http://webgips.tmweb.ru",
+      "stack": ["HTML", "CSS", "Jquery"]
     }
   ]
 }
