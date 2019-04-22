@@ -17,8 +17,8 @@
     },
     {
       "name": "Mogoboinya",
-      "imgUrl": "/images/works/mozgo.com.png",
-      "link": "",
+      "imgUrl": "/images/works/mozgo.png",
+      "link": "http://mozgo.com/",
       "about": "Mozgoboinya game registration platform.",
       "stack": ["HTML", "CSS", "Vue.js"]
     },
