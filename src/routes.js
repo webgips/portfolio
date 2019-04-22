@@ -2,7 +2,9 @@ import React from 'react';
 import Sidebar from './components/Sidebar/Sidebar'
 import { Switch, Route } from "react-router-dom"
 
-import WorkList from './components/WorkList/WorkList'
+import AboutPage from './pages/about/about'
+import WorksPage from './pages/works/WorkList'
+import Contacts from './pages/contacts/contacts'
 import WorkItem from './components/WorkItem/WorkItem'
 
 const routesArr = [
@@ -10,26 +12,19 @@ const routesArr = [
     name: 'about',
     path: "/",
     exact: true,
-    main: () => <h2>about</h2>
+    main: AboutPage
   },
   {
     name: 'works',
     path: "/works",
     exact: true,
-    main: WorkList
+    main: WorksPage
   },
-  /* {
-    name: 'WorkItem',
-    path: "/works/:id",
-    main: () => <WorkItem />
-  }, */
-  
   {
     name: 'contacts',
     path: "/contacts",
     exact: true,
-    sidebar: () => <div>contacts!</div>,
-    main: () => <h2>contacts</h2>
+    main: Contacts
   }
 ];
 

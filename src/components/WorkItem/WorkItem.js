@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import {works} from '../../assets/data.json'
 import "./WorkItem.scss";
 
-function WorkItem({match}){
+const WorkItem = ({match}) => {
     const workInfo = works.filter((work) => work.name === match.params.id )[0]
     return (
         <div className="content works">
