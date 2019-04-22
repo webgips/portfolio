@@ -11,7 +11,7 @@ const Contacts = () => {
       <h2 class="content__title">Contacts</h2>
       <div class="contact__content">
         <form class="contact__form" id="contact__form" onSubmit={submitHendler}>
-          <div class="contact__text">Project brief description</div>
+          <div class="contact__text"></div>
           <div class="contact__form-row">
             <textarea
               class="contact__form-textarea"

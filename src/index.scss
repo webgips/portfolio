@@ -51,6 +51,9 @@ body{
   @include notebook{
     padding: 40px;
   }
+  @include phones{
+    padding: 20px;
+  }
   &__wrap{
     position: relative;
     flex: 1;

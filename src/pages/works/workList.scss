@@ -11,23 +11,22 @@
         margin-bottom: 20px;
         .tech-link{
             margin-right: 10px;
+            margin-bottom: 10px;
         }
     }
     &__list{
       list-style: none;
-      display: flex;
-      justify-content: space-around;
-      padding: 0;
       margin: 0;
-      flex-wrap: wrap;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat( auto-fit, minmax(280px, 1fr) );
+      grid-gap: 10px;
     }
     &__item{
-      flex: 0 1 25%;
-      margin: 10px;
       text-align: center;
-      @include phones{
+      /* @include phones{
         flex: 0 1 40%;
-      }
+      } */
     }
     &__link{
       display: block;
@@ -36,39 +35,21 @@
       box-shadow: 0 5px 12px 3px rgba(#333,.4);
       padding: 10px;
       height: 250px;
-      margin-bottom: 10px;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       color: #fff;
       text-decoration: none;
-      @include notebook{
-        height: 200px;
-      }
-      @include tablet{
-        height: 150px;
-      }
       &-name{
         font-size: 20px;
         font-family:'proxima_novasemibold';
-        @include phones{
-          font-size: 14px;
-          text-overflow: ellipsis;
-          overflow: hidden;
-          width: 80px;
-          display: block;
-        }
       }
       &-img{
         width: 100%;
         height: 180px;
         overflow: hidden;
-        @include notebook{
-          height: 80px;
-        }
         img{
           width: 100%;
-          // height: 100%;
           object-fit:contain;
         }
       }
