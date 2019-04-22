@@ -1,0 +1,65 @@
+@import "./../../assets/styles/mixins";
+.contact {
+  &__content {
+    margin-top: 50px;
+    @include tablet {
+      margin-top: 20px;
+    }
+  }
+  &__text {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  &__form {
+    &-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    &-textarea {
+      height: 200px;
+      width: 100%;
+      resize: none;
+      padding: 20px;
+      color: #fff;
+      font-size: 20px;
+      border-width: 0.601px;
+      border-color: rgba(255, 255, 255, 0.3);
+      border-style: solid;
+      background-color: rgba(30, 26, 52, 0.3);
+      @include tablet {
+        height: 100px;
+        padding: 10px;
+      }
+    }
+    &-input {
+      height: 60px;
+      font-size: 20px;
+      color: #fff;
+      padding: 0 20px;
+      width: 45%;
+      // padding: 30px;
+      border-width: 0.601px;
+      border-color: rgba(255, 255, 255, 0.3);
+      border-style: solid;
+      background-color: rgba(30, 26, 52, 0.3);
+      @include tablet {
+        padding: 0 10px;
+      }
+    }
+    &-submit.btn {
+      border: none;
+      height: 60px;
+      background-color: rgba(#fff, 0.1);
+      text-decoration: none;
+      padding: 0 40px;
+      color: #fff;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      &:hover {
+        background-color: rgba($active, 0.4);
+      }
+    }
+  }
+}
