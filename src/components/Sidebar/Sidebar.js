@@ -5,15 +5,10 @@ import "./sidebar.scss";
 import avatar from "../../assets/images/avatar.jpg";
 import Socials from "../Socials/Socials";
 
-const toggleAside = () => {
-  console.log(document.querySelector(".aside").classList.toggle("open"));
-};
-
 class Sidebar extends Component {
   render() {
     return (
       <aside className="aside">
-        
         <div className="aside__photo">
           <div className="aside__photo-wrap">
             <img className="aside__photo-img" src={avatar} alt="Avatar" />

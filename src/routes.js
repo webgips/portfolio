@@ -28,16 +28,16 @@ const routesArr = [
   }
 ];
 const toggleAside = () => {
-  console.log(document.querySelector(".app").classList.toggle("show-aside"));
+  document.querySelector(".app").classList.toggle("show-aside");
 };
 export const Routes = () => {
   return (
     <div className="app">
       <button className="aside__btn" onClick={toggleAside}>
-          <span />
-          <span />
-          <span />
-        </button>
+        <span />
+        <span />
+        <span />
+      </button>
       <Sidebar />
       <div className="content__wrap">
         <Switch>
