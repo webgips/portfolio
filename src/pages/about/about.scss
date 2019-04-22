@@ -1,0 +1,91 @@
+@import "./../../assets/styles/mixins";
+.about{
+  &__content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    @include tablet{
+      margin-top: 25px;
+    }
+  }
+  &__name{
+    font-family: "proxima_novasemibold";
+    font-size: 40px;
+    margin-bottom: 20px;
+    @include tablet{
+      font-size: 32px;
+    }
+  }
+  &__job{
+    font-size: 32px;
+    font-family:  "proxima_nova_rgregular";
+    color: #17b7b9;
+    margin-bottom: 20px;
+    @include tablet{
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  }
+  &__desc{
+    font-family: "proxima_nova_thinthin";
+    font-size: 24px;
+    max-width: 600px;
+    opacity: .8;
+    color: #17b7b9;
+    margin-bottom: 20px;
+    @include tablet{
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  }
+  &__stack{
+      margin-bottom: 30px;
+      &-title{
+        color: #17b7b9;
+        font-family:  "proxima_nova_rgregular";
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      &-list{
+          .tech-link{
+              margin-right: 10px;
+              &:last-child{
+                  margin-right: 0;
+              }
+          }
+      }
+  }
+  &__btns{
+    display: flex;
+    &-hire{
+      margin-right: 30px;
+    }
+   @include phones{
+      display: block;
+      &-hire{
+        margin-bottom: 20px;
+        margin-right: 0;
+      }
+    }
+  }
+  &__btn{
+    height: 70px;
+    background-color: rgba(#fff,.1);
+    text-decoration: none;
+    padding: 0 40px;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+    min-width: 165px;
+    &:hover{
+      background-color: rgba($active,.4);
+    }
+    @include tablet{
+      font-size: 20px;
+      height: 50px;
+      padding: 0 30px;
+    }
+  }
+}
