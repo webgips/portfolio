@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import "./workList.scss";
 import { works, stack } from "../../assets/data.json";
 
-function getParams(search) {
+const getParams = search => {
   const searchParams = new URLSearchParams(search);
   return {
     sort: searchParams.get("sort") || ""
   };
-}
+};
 
 const updateSearch = (props, component) => {
   const params = getParams(props.location.search);
@@ -29,12 +29,11 @@ class WorkList extends Component {
     this.state = {
       worksList: works,
       tech: null,
-      search: this.props.location.search,
       allStack: stack
     };
   }
   componentDidMount() {
-    const params = getParams(this.state.search);
+    const params = getParams(this.props.location.search);
 
     if (params.sort.length > 0) {
       const filteredWorks = this.state.worksList.filter(work => {
@@ -53,6 +52,7 @@ class WorkList extends Component {
   render() {
     const match = this.props.match;
     const tech = this.state.tech;
+
     const resetSearch = () => {
       this.setState({ tech: null });
       this.setState({ worksList: works });
@@ -86,9 +86,9 @@ class WorkList extends Component {
             </div>
           )}
           <ul className="works__list">
-            {this.state.worksList.map((work, index) => (
-              <li className="works__item" key={index}>
-                <Link to={`${match.url}/${work.name}`} className="works__link">
+            {this.state.worksList.map(work => (
+              <li className="works__item" key={work.id}>
+                <Link to={{pathname: `${match.url}/${work.name}`, state:{work}  }}  className="works__link">
                   <div className="works__link-img">
                     <img src={work.imgUrl} alt={work.name} />
                   </div>
