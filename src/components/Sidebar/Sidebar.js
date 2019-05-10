@@ -5,6 +5,9 @@ import "./sidebar.scss";
 import avatar from "../../assets/images/avatar.jpg";
 import Socials from "../Socials/Socials";
 
+const toggleAside = () => {
+  document.querySelector(".app").classList.toggle("show-aside");
+};
 class Sidebar extends Component {
   render() {
     return (
@@ -20,6 +23,7 @@ class Sidebar extends Component {
             activeClassName="nav__link-active"
             exact
             to="/"
+            onClick={toggleAside}
           >
             About
           </NavLink>
@@ -27,6 +31,7 @@ class Sidebar extends Component {
             className="nav__link"
             activeClassName="nav__link-active"
             to="/works"
+            onClick={toggleAside}
           >
             Works
           </NavLink>
@@ -35,6 +40,7 @@ class Sidebar extends Component {
             activeClassName="nav__link-active"
             exact
             to="/contacts"
+            onClick={toggleAside}
           >
             Contacts
           </NavLink>

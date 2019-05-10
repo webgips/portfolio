@@ -4,8 +4,6 @@ import "./WorkItem.scss";
 
 const WorkItem = props => {
   const workInfo = props.location.state.work
-  console.log(props.location.state)
-  console.log(workInfo)
   return ( 
     <div className="content works">
       <div className="content__title">{workInfo.name}</div>

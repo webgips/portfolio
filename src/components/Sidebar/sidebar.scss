@@ -30,6 +30,7 @@
     background-color: transparent;
     border: none;
     outline: none;
+    z-index: 999999;
     @include tablet {
       display: block;
     }

@@ -30,6 +30,7 @@ const routesArr = [
 const toggleAside = () => {
   document.querySelector(".app").classList.toggle("show-aside");
 };
+
 export const Routes = () => {
   return (
     <div className="app">
