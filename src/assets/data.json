@@ -1,7 +1,8 @@
 {
-  "stack": ["HTML", "CSS", "Jquery", "Vue.js", "Chart.js", "D3.js", "WordPress"],
+  "stack": ["HTML", "CSS", "Jquery", "Vue.js", "Chart.js", "D3.js", "WordPress", "Gulp", "Webpack"],
   "works": [
     {
+      "id": "1",
       "name": "NLgroup",
       "imgUrl": "/images/works/nlgroup.png",
       "link": "http://nlgroup.demo.code-pilots.ru/",
@@ -9,115 +10,131 @@
       "stack": ["HTML", "CSS", "Jquery"]
     },
     {
+      "id": "2",
       "name": "Erarta museum",
       "imgUrl": "/images/works/www.erarta.com.png",
       "link": "http://erarta.com/",
       "about": "Site for Minsk collegium of Advocates",
-      "stack": ["HTML", "CSS", "Jquery"]
+      "stack": ["HTML", "CSS", "Jquery", "Gulp"]
     },
     {
+      "id": "3",
       "name": "Mogoboinya",
       "imgUrl": "/images/works/mozgo.png",
       "link": "http://mozgo.com/",
       "about": "Mozgoboinya game registration platform.",
-      "stack": ["HTML", "CSS", "Vue.js"]
+      "stack": ["HTML", "CSS", "Vue.js", "Webpack"]
     },
 
     {
+      "id": "4",
       "name": "DAppFight",
       "imgUrl": "/images/works/dappfight.com.png",
       "link": "https://dappfight.com/",
       "about": "DAppFight is a rating data platform which gives online all necessary DApp's information and statistics",
-      "stack": ["HTML", "CSS", "Jquery", "Chart.js"]
+      "stack": ["HTML", "CSS", "Jquery", "Chart.js", "Webpack"]
     },
     
     {
+      "id": "5",
       "name": "oddjob.ru",
       "imgUrl": "/images/works/oddjob.ru.jpeg",
       "link": "https://oddjob.ru/",
       "about": "Site for Personal Solutions company. The company 'Personal Solution' helps customers quickly find freelance staff",
-      "stack": ["HTML", "CSS", "Jquery"]
+      "stack": ["HTML", "CSS", "Jquery", "Gulp"]
     },
 
     {
+      "id": "6",
       "name": "Advokat.by",
       "imgUrl": "/images/works/advokat.png",
       "link": "http://advokat.by/",
       "about": "Site for Minsk collegium of Advocates",
-      "stack": ["HTML", "CSS", "Jquery"]
+      "stack": ["HTML", "CSS", "Jquery", "Gulp"]
     },
     {
+      "id": "7",
       "name": "WeeBets corpsite",
       "imgUrl": "/images/works/weebets.png",
       "link": "https://weebets-d51bd.firebaseapp.com/",
       "about": "Site for WeeBets slot machines сompany",
-      "stack": ["HTML", "CSS", "Jquery"]
+      "stack": ["HTML", "CSS", "Jquery", "Gulp"]
     },
     {
+      "id": "8",
       "name": "WeeBets dashboard",
       "imgUrl": "/images/works/weebets-dashboard.png",
       "link": "https://dashboard-c2cd9.firebaseapp.com/",
       "about": "Info dashboard for WeeBets slots",
-      "stack": ["HTML", "CSS", "Jquery", "D3.js"]
+      "stack": ["HTML", "CSS", "Jquery", "D3.js", "Gulp"]
     },
     {
+      "id": "9",
       "name": "Karma.red",
       "imgUrl": "/images/works/karma.png",
       "link": "https://tokensale.karma.red/",
       "about": "Token sale page for Karma global p2p loans platform",
-      "stack": ["HTML", "CSS", "Jquery"]
+      "stack": ["HTML", "CSS", "Jquery", "Gulp"]
     },
     {
+      "id": "10",
       "name": "Getphuket.ru",
       "imgUrl": "/images/works/getphuket.ru.png",
       "link": "http://getphuket.ru/",
       "about": "Token sale page for Karma global p2p loans platform",
-      "stack": ["HTML", "CSS", "Jquery"]
+      "stack": ["HTML", "CSS", "Jquery", "Gulp"]
     },
     {
+      "id": "11",
       "name": "Laboratoria Coffee",
       "imgUrl": "/images/works/laboratoriacoffee.by.jpg",
       "link": "https://laboratoriacoffee.by/",
-      "stack": ["HTML", "CSS", "Jquery"]
+      "stack": ["HTML", "CSS", "Jquery", "Gulp"]
     },
     {
+      "id": "12",
       "name": "IcePoint.by",
       "imgUrl": "/images/works/icepoint.by.png",
       "link": "http://icepoint.by",
-      "stack": ["HTML", "CSS", "Jquery"]
+      "stack": ["HTML", "CSS", "Jquery", "Gulp"]
     },
 
     {
+      "id": "13",
       "name": "Talkie",
       "imgUrl": "/images/works/talki.admore.by.png",
       "link": "",
-      "stack": ["HTML", "CSS", "Jquery"]
+      "stack": ["HTML", "CSS", "Jquery", "Gulp"]
     },
     {
+      "id": "14",
       "name": "Gyroskutery.by",
       "imgUrl": "/images/works/gyroskutery.by.png",
       "link": "http://gyroskutery.by/",
-      "stack": ["HTML", "CSS", "Jquery"]
+      "stack": ["HTML", "CSS", "Jquery", "Gulp"]
     },
 
     {
+      "id": "15",
       "name": "Vershina Ufox",
       "imgUrl": "/images/works/vershina-ufox.png",
       "link": "http://vershina.ufox.by/",
-      "stack": ["HTML", "CSS", "Jquery"]
+      "stack": ["HTML", "CSS", "Jquery", "Gulp"]
     },
 
     {
+      "id": "16",
       "name": "Casino Minsk Royal",
       "imgUrl": "/images/works/casino-minsk-royal.ru.png",
       "link": "http://casino-minsk-royal.ru/",
-      "stack": ["HTML", "CSS", "Jquery", "WordPress"]
+      "stack": ["HTML", "CSS", "Jquery", "WordPress", "Gulp"]
     },
     {
+      "id": "17",
       "name": "Burgers Delivery",
       "imgUrl": "/images/works/burger.png",
       "link": "http://webgips.tmweb.ru",
-      "stack": ["HTML", "CSS", "Jquery"]
+      "stack": ["HTML", "CSS", "Jquery", "Gulp"]
     }
   ]
 }

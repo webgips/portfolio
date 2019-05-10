@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 import "./about.scss";
 
 const About = () => {
@@ -18,7 +17,8 @@ const About = () => {
         <div className="about__stack">
           <div className="about__stack-title">My stack:</div>
           <div className="about__stack-list">
-            HTML5(Pug), CSS3(SCSS), JS(ES6), Vue.js(Vuex,Vue-router), React.js(React-router)
+            HTML5(Pug), CSS3(SCSS, RWD, Animations, LESS/SASS), JS(ES6), Jquery,  Vue.js (Vuex,Vue-router),
+            React.js (React-router), Gulp, Webpack, Terminal, Git, Docker;
           </div>
         </div>
         <div className="about__btns">
