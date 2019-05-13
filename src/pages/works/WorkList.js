@@ -64,7 +64,7 @@ class WorkList extends Component {
           {tech && (
             <div className="works__filter">
               <div className="tech-link">{tech}</div>
-              <Link to="/works" onClick={resetSearch} className="tech-reset">
+              <Link to="/works/" onClick={resetSearch} className="tech-reset">
                 x
               </Link>
             </div>
@@ -74,7 +74,7 @@ class WorkList extends Component {
               {this.state.allStack.map((tech, index) => (
                 <Link
                   to={{
-                    pathname: "/works",
+                    pathname: "/works/",
                     search: `?sort=${tech}`
                   }}
                   className="tech-link"
@@ -88,8 +88,9 @@ class WorkList extends Component {
           <ul className="works__list">
             {this.state.worksList.map(work => (
               <li className="works__item" key={work.id}>
+              {console.log(match)}
                 <Link
-                  to={`${match.url}/${work.id}`}
+                  to={`${match.url}${work.id}`}
                   className="works__link"
                 >
                   <div className="works__link-img">

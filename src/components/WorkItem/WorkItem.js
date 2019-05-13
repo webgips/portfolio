@@ -21,7 +21,7 @@ const WorkItem = props => {
                 workInfo.stack.map((tech,index) => 
                   <li className="work-item__tech-item" key={index}>
                     <Link to={{
-                      pathname: "/works",
+                      pathname: "/works/",
                       search: `?sort=${tech}`,
                     }} className="tech-link">{tech}</Link>
                   </li>
