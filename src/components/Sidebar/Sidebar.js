@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 import "./sidebar.scss";
 import avatar from "../../assets/images/avatar.jpg";
@@ -13,9 +13,9 @@ class Sidebar extends Component {
     return (
       <aside className="aside">
         <div className="aside__photo">
-          <div className="aside__photo-wrap">
+          <Link to="/"className="aside__photo-wrap">
             <img className="aside__photo-img" src={avatar} alt="Avatar" />
-          </div>
+          </Link>
         </div>
         <nav className="nav">
           <NavLink
