@@ -1,0 +1,25 @@
+[debug] [2019-05-13T13:36:37.283Z] ----------------------------------------------------------------------
+[debug] [2019-05-13T13:36:37.286Z] Command:       /usr/local/bin/node /usr/local/bin/firebase experimental:functions:shell
+[debug] [2019-05-13T13:36:37.286Z] CLI Version:   6.0.1
+[debug] [2019-05-13T13:36:37.286Z] Platform:      darwin
+[debug] [2019-05-13T13:36:37.286Z] Node Version:  v8.10.0
+[debug] [2019-05-13T13:36:37.287Z] Time:          Mon May 13 2019 16:36:37 GMT+0300 (+03)
+[debug] [2019-05-13T13:36:37.287Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-13T13:36:37.819Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-13T13:36:37.820Z] > authorizing via signed-in user
+[debug] [2019-05-13T13:36:37.820Z] [iam] checking project maxim-markov for permissions ["firebase.projects.get"]
+[debug] [2019-05-13T13:36:37.823Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/maxim-markov:testIamPermissions  
+
+[debug] [2019-05-13T13:36:38.885Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-13T13:36:40.038Z] Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/logs'
+    at Object.fs.mkdirSync (fs.js:885:18)
+    at Object.assertLogsPath (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/emulator/logs.js:65:10)
+    at new Controller (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/cli/controller.js:77:32)
+    at FunctionsEmulator.start (/usr/local/lib/node_modules/firebase-tools/lib/functionsEmulator.js:102:23)
+    at Command.module.exports [as _action] (/usr/local/lib/node_modules/firebase-tools/lib/functionsShellCommandAction.js:13:10)
+    at /usr/local/lib/node_modules/firebase-tools/lib/command.js:158:37
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[error] 
+[error] Error: An unexpected error has occurred.
