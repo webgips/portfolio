@@ -16,13 +16,13 @@ const routesArr = [
   },
   {
     name: "works",
-    path: "/works",
+    path: "/works/",
     exact: true,
     main: WorksPage
   },
   {
     name: "contacts",
-    path: "/contacts",
+    path: "/contacts/",
     exact: true,
     main: Contacts
   }
@@ -50,7 +50,7 @@ export const Routes = () => {
               component={route.main}
             />
           ))}
-          <Route path="/works/:id" component={WorkItem} />
+          <Route path="/works/:id" exact component={WorkItem} />
         </Switch>
       </div>
     </div>

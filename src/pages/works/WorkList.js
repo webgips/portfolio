@@ -90,7 +90,7 @@ class WorkList extends Component {
               <li className="works__item" key={work.id}>
                 <Link
                   to={{
-                    pathname: `${match.url}/${work.name}`,
+                    pathname: `${match.url}${work.name}`,
                     state: { work }
                   }}
                   className="works__link"

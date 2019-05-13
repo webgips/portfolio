@@ -3,6 +3,7 @@
 @import "./assets/styles/mixins";
 
 
+
 *{
   box-sizing: border-box;
 }
@@ -37,6 +38,7 @@ body{
     width: 100%;
     height: 100%;
     // background: url('./assets/img/glassy-effect.png') no-repeat center;
+    font-family: "proxima_nova_regular", Arial, Helvetica, sans-serif;
     display: flex;
     color: #fff;
 }

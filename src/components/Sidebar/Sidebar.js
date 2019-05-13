@@ -30,7 +30,7 @@ class Sidebar extends Component {
           <NavLink
             className="nav__link"
             activeClassName="nav__link-active"
-            to="/works"
+            to="/works/"
             onClick={toggleAside}
           >
             Works
@@ -39,7 +39,7 @@ class Sidebar extends Component {
             className="nav__link"
             activeClassName="nav__link-active"
             exact
-            to="/contacts"
+            to="/contacts/"
             onClick={toggleAside}
           >
             Contacts
