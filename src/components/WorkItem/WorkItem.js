@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom"
+import {works} from '../../assets/data.json'
 import "./WorkItem.scss";
 
 const WorkItem = props => {
-  const workInfo = props.location.state.work
+    const workInfo = works.filter((work) => work.id === props.match.params.id )[0]
   return ( 
     <div className="content works">
       <div className="content__title">{workInfo.name}</div>
