@@ -20,7 +20,7 @@
 .firebaseserc
 /.firebase
 firebase.json
-/public
+
 
 
 npm-debug.log*
