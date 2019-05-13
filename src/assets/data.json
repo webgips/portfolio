@@ -81,7 +81,7 @@
       "name": "Getphuket.ru",
       "imgUrl": "/images/works/getphuket.ru.png",
       "link": "http://getphuket.ru/",
-      "about": "Token sale page for Karma global p2p loans platform",
+      "about": "Site for a holiday in Phuket. The whole range of services for your holiday in Phuket. Rental cars, ships, real estate. Various types of excursions.",
       "stack": ["PUG", "SCSS", "Jquery", "Gulp"]
     },
     {
@@ -89,6 +89,7 @@
       "name": "Laboratoria Coffee",
       "imgUrl": "/images/works/laboratoriacoffee.by.jpg",
       "link": "https://laboratoriacoffee.by/",
+      "about": "Proper freshly roasted coffee wholesale and retail in the Republic of Belarus",
       "stack": ["PUG", "SCSS", "Jquery", "Gulp"]
     },
     {
@@ -96,6 +97,7 @@
       "name": "IcePoint.by",
       "imgUrl": "/images/works/icepoint.by.png",
       "link": "http://icepoint.by",
+      "about": "Website for video production company ICE-POINT",
       "stack": ["PUG", "SCSS", "Jquery", "Gulp"]
     },
 
@@ -111,6 +113,7 @@
       "name": "Gyroskutery.by",
       "imgUrl": "/images/works/gyroskutery.by.png",
       "link": "http://gyroskutery.by/",
+      "about": "Catalog of gyroscooters",
       "stack": ["PUG", "SCSS", "Jquery", "Gulp"]
     },
 
