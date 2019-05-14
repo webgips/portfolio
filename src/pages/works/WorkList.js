@@ -88,10 +88,7 @@ class WorkList extends Component {
           <ul className="works__list">
             {this.state.worksList.map(work => (
               <li className="works__item" key={work.id}>
-                <Link
-                  to={`${match.url}${work.id}`}
-                  className="works__link"
-                >
+                <Link to={`${match.url}${work.id}`} className="works__link">
                   <div className="works__link-img">
                     <img src={work.imgUrl} alt={work.name} />
                   </div>

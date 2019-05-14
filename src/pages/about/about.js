@@ -17,8 +17,9 @@ const About = () => {
         <div className="about__stack">
           <div className="about__stack-title">My stack:</div>
           <div className="about__stack-list">
-            HTML5(Pug), CSS3(SCSS, RWD, Animations, LESS/SASS), JS(ES6), Jquery,  Vue.js (Vuex,Vue-router),
-            React.js (React-router), Gulp, Webpack, Terminal, Git, Docker;
+            HTML5(Pug), CSS3(SCSS, RWD, Animations, LESS/SASS), JS(ES6), Jquery,
+            Vue.js (Vuex,Vue-router), React.js (React-router), Gulp, Webpack,
+            Terminal, Git, Docker;
           </div>
         </div>
         <div className="about__btns">
