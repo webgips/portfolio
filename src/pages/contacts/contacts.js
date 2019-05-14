@@ -21,15 +21,16 @@ class Contacts extends Component {
       name: null,
       description: null,
       email: null,
-      company: null
+      company: null,
+      messageSend:  sessionStorage.getItem("contactMessageSend") ? sessionStorage.getItem("contactMessageSend") : false
     };
 
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
-  hideForm(){
+   /* hideForm(){
     document.getElementById("contact__form").style.display = 'none'
-  }
+  } */
   handleInputChange(event) {
     const target = event.target;
     const value = target.type === "checkbox" ? target.checked : target.value;
@@ -41,16 +42,19 @@ class Contacts extends Component {
   }
   handleSubmit(event) {
     event.preventDefault();
-    console.log("Имя " + this.state.name);
     messagesRef.push(this.state).then(()=>{
-      console.log('add to databse')
       this.setState({
         name: null,
         description: null,
         email: null,
-        company: null
+        company: null,
       })
-      this.hideForm()
+    })
+    .then(()=>{
+      sessionStorage.setItem("contactMessageSend","true");
+      this.setState({
+        messageSend: sessionStorage.getItem("contactMessageSend")
+      })
     })
   }
   render() {
@@ -58,7 +62,10 @@ class Contacts extends Component {
       <div className="contact content">
         <h2 className="content__title">Contacts</h2>
         <div className="contact__content">
-          <form
+          {this.state.messageSend && 
+            <div className="contact__message">Your message has been sent.</div>
+          }
+          {!this.state.messageSend && <form
             className="contact__form"
             id="contact__form"
             onSubmit={this.handleSubmit}
@@ -109,6 +116,7 @@ class Contacts extends Component {
               Request a Quote
             </button>
           </form>
+          }
         </div>
       </div>
     );
