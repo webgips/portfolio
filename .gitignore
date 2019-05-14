@@ -17,10 +17,12 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+
+# firebase 
 .firebaseserc
 /.firebase
 firebase.json
-
+.firebaseconfig.js
 
 
 npm-debug.log*
